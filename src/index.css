@@ -1,11 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
 :root{
   --primary: rgb(100, 203, 117);
   --black: rgb(24, 29, 59);
   --gray: rgb(211, 211, 211);
 }
 
-body{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.text-gradient {
+    background: linear-gradient(79deg, #2b0aff, #ff5b8a 49%, #ff5b8a 55%, #fba64b 77%, #f99b52);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    animation: spin 10s linear infinite;
+}
+
+.maincontainer {
+    width: 100%;
+    max-width: 1536px;
+    margin: 0 auto;
+    padding: 1rem 5%;
+}
+
+@media(max-width: 1536px) {
+    .maincontainer {
+        max-width: 1366px;
+    }
+}
+
+@media(max-width: 1366px) {
+    .maincontainer {
+        max-width: 1280px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .maincontainer {
+        max-width: 1024px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .maincontainer {
+        max-width: 768px;
+    }
+}
+
+@media(max-width: 768px) {
+    .maincontainer {
+        max-width: 638px;
+    }
+}
+
+.appcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    margin-bottom: 10rem;
 }

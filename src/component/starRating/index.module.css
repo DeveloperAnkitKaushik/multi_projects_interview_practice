@@ -1,0 +1,22 @@
+.innercontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.stars{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.active{
+    color: #ff964a;
+}

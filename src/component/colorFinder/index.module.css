@@ -1,0 +1,38 @@
+.container {
+    margin-top: 2rem;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.subheading{
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn {
+    background-color: rgb(239, 239, 239);
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
